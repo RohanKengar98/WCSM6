@@ -1,0 +1,13 @@
+package TestNG;
+
+import org.testng.annotations.Test;
+
+import graphql.schema.diff.reporting.CapturingReporter;
+import graphql.schema.diff.reporting.PrintStreamReporter;
+
+public class Demo {
+  @Test
+  public void a() {
+	  Reporter.log("hii");
+  }
+}
